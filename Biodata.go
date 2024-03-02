@@ -43,7 +43,7 @@ func main() {
 
 	teman := getDataTeman(absenInt)
 	if teman == nil {
-		fmt.Println("Tidak ada data teman dengan nomor absen tersebut")
+		fmt.Println("Tidak terdapat nama teman dengan nomer absen tersebut")
 		return
 	}
 
